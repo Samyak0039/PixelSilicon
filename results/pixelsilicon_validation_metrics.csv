@@ -1,0 +1,3 @@
+method,psnr,ssim,lpips
+Bicubic,22.9449,0.5326,0.4502
+PixelSilicon,27.6742,0.7376,0.3331

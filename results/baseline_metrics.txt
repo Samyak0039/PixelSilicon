@@ -1,0 +1,6 @@
+BICUBIC BASELINE METRICS (KLA Validation Split)
+================================================
+Validation Images: 640
+Average PSNR:      22.9449 dB
+Average SSIM:      0.5326
+Average LPIPS:     0.4502

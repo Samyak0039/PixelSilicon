@@ -1,0 +1,18 @@
+=================================================================
+                 KLA TEST DATASET INSPECTION                     
+=================================================================
+Test Directory:             D:\PixelSilicon\dataset\KLA\Test_NoisyLR\NoisyLR
+Total .npy Files Count:     400
+-----------------------------------------------------------------
+FIRST TEST SAMPLE ANALYSIS:
+Filename:                   000000.npy
+Shape:                      (128, 128)
+Dtype:                      float32
+Minimum Value:              0.001030
+Maximum Value:              1.540614
+Mean Value:                 0.659532
+Standard Deviation:         0.293254
+-----------------------------------------------------------------
+INPUT SHAPE COMPATIBILITY CHECK:
+CONFIRMED: Array shape (128, 128) is fully compatible with PixelSiliconNet's expected input tensor shape of [1, 1, 128, 128] (batch_size=1, channels=1, H=128, W=128).
+=================================================================

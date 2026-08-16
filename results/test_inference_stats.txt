@@ -1,0 +1,15 @@
+=================================================================
+           PIXELSILICONNET TEST INFERENCE STATISTICS             
+=================================================================
+Hardware / GPU Name:        NVIDIA GeForce GTX 1060 with Max-Q Design
+Model Checkpoint Loaded:    D:\PixelSilicon\models\pixelsilicon_best_stable.pth
+Model Parameter Count:      739,777 (0.7398 M)
+Number of Test Images:      400
+Model Input Tensor Shape:   [1, 1, 128, 128]
+Model Output Image Shape:   256x256 Grayscale
+-----------------------------------------------------------------
+TIMING STATISTICS:
+Total Inference Time:       17.5888 seconds
+Average Time per Image:     43.97 ms
+Throughput (FPS):           22.74 images/sec
+=================================================================

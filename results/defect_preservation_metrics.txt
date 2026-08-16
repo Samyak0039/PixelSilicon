@@ -1,0 +1,25 @@
+============================================================
+DEFECT / STRUCTURAL PRESERVATION EVALUATION
+============================================================
+Validation Images:                     640
+Hardware / GPU Name:                   NVIDIA GeForce GTX 1060 with Max-Q Design
+Total Evaluation Time:                 108.4828 seconds
+------------------------------------------------------------
+Bicubic:
+Gradient Correlation:                  0.4836
+Edge Precision:                        0.3421
+Edge Recall:                           0.7329
+Edge F1:                               0.4326
+Gradient Magnitude Ratio:              2.2207
+
+PixelSilicon:
+Gradient Correlation:                  0.6871
+Edge Precision:                        0.6869
+Edge Recall:                           0.4337
+Edge F1:                               0.5070
+Gradient Magnitude Ratio:              0.7049
+
+Edge Preservation Index:
+EPI = 1.1720
+============================================================
+
