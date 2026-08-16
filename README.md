@@ -12,14 +12,14 @@ The system learns a supervised mapping from degraded low-resolution inspection i
 
 Semiconductor inspection images can be affected by:
 
-- Sensor noise
-- Speckle-like noise
+- Speckle noise
+- Additive Gaussian noise
 - Low spatial resolution
-- Blur
+- Downsampling
+- Blur and interpolation artifacts
 - Loss of fine structural details
-- Interpolation artifacts
 
-These degradations can make small features and structural abnormalities difficult to inspect.
+These degradations can make small semiconductor features and structural abnormalities more difficult to inspect.
 
 Traditional interpolation methods such as bicubic upscaling can increase spatial resolution, but they cannot learn to recover missing high-frequency information.
 
@@ -35,9 +35,10 @@ The main objectives of PixelSilicon are:
 2. Perform 2× spatial super-resolution.
 3. Recover structural and edge information lost during degradation.
 4. Improve image quality compared with conventional bicubic interpolation.
-5. Evaluate restoration using PSNR, SSIM and LPIPS.
+5. Evaluate restoration using PSNR, SSIM, and LPIPS.
 6. Evaluate structural-detail preservation using gradient and edge-based metrics.
-7. Demonstrate practical GPU inference performance.
+7. Provide a reproducible standalone inference pipeline.
+8. Demonstrate practical GPU inference performance.
 
 ---
 
@@ -59,4 +60,4 @@ Restored Image
       │
       │ 256 × 256
       ▼
-Structural / Image Quality Evaluation
+Image Quality / Structural Evaluation
