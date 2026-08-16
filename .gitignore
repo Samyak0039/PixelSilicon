@@ -25,3 +25,6 @@ Thumbs.db
 
 # Generated test inference outputs
 results/test_outputs/
+
+# Standalone inference outputs
+results/submission_outputs/
