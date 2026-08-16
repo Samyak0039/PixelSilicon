@@ -1,0 +1,37 @@
+============================================================
+FAILURE / LIMITATION CASE ANALYSIS REPORT
+============================================================
+Validation samples:                    640
+Execution Device:                      NVIDIA GeForce GTX 1060 with Max-Q Design
+Analysis Duration:                     20.24 seconds
+------------------------------------------------------------
+BEST CASE (Highest PSNR Improvement over Bicubic):
+Sample ID:                             003049
+PixelSilicon PSNR:                      35.0267 dB
+Bicubic PSNR:                          19.7174 dB
+Improvement:                           +15.3094 dB
+PixelSilicon SSIM:                      0.9508
+Bicubic SSIM:                          0.1224
+SSIM Improvement:                      +0.8285
+------------------------------------------------------------
+WORST PSNR IMPROVEMENT (Actual Bicubic-Outperforming Failure Case):
+Sample ID:                             001908
+PixelSilicon PSNR:                      18.2075 dB
+Bicubic PSNR:                          18.3161 dB
+Improvement:                           -0.1086 dB
+PixelSilicon SSIM:                      0.4444
+Bicubic SSIM:                          0.6129
+SSIM Improvement:                      -0.1684
+------------------------------------------------------------
+WORST SSIM IMPROVEMENT:
+Sample ID:                             001908
+PixelSilicon PSNR:                      18.2075 dB
+Bicubic PSNR:                          18.3161 dB
+Improvement:                           -0.1086 dB
+PixelSilicon SSIM:                      0.4444
+Bicubic SSIM:                          0.6129
+SSIM Improvement:                      -0.1684
+------------------------------------------------------------
+ACTUAL BICUBIC-OUTPERFORMED CASES (PixelSilicon PSNR < Bicubic PSNR):
+Count:                                 1
+============================================================
